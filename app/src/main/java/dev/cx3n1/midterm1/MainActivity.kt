@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun startProfileActivity() {
         startActivity(Intent(this, ProfileActivity::class.java));
+        this.finish();
     }
 
     @SuppressLint("CommitPrefEdits")
